@@ -1,0 +1,13 @@
+tmdb APIS
+//for fetching Movies by name
+https://api.themoviedb.org/3/search/movie?api_key=ac807100099e4768223a1b4b07dfad8b&language=en-US&query={NameHere}&page=1&include_adult=false
+
+//for fetching trending Movies
+https://api.themoviedb.org/3/trending/all/day?api_key=ac807100099e4768223a1b4b07dfad8b
+
+
+// for cast nad crew
+ https://api.themoviedb.org/3/movie/664469/credits?api_key=ac807100099e4768223a1b4b07dfad8b&language=en-US
+
+// for single movie details by id
+ https://api.themoviedb.org/3/movie/664469?api_key=ac807100099e4768223a1b4b07dfad8b&language=en-US
